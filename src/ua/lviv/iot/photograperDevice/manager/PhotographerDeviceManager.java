@@ -9,27 +9,21 @@ import ua.lviv.iot.photographerDevice.model.PhotographerDevice;
 public class PhotographerDeviceManager implements lPhotographerDeviceManager {
 
 	@Override
-	public List<PhotographerDevice> sortBySize(List<PhotographerDevice> device, boolean reverse) {
-		Comparator<PhotographerDevice> comparator = 
-				((PhotographerDevice d1, PhotographerDevice d2) -> d1.getSize() - d2.getSize());
-		        device.sort(comparator);
-		        if(reverse) {
-		        	Collections.reverse(device);
-		        }
-		return device;
+	public void sortBySize(List<PhotographerDevice> device, boolean reverse) {
+		if (reverse) {
+			Collections.sort(device, Comparator.comparing(PhotographerDevice::getSize).reversed());
+		} else {
+			Collections.sort(device, Comparator.comparing(PhotographerDevice::getSize));
+		}
 	}
 
-	
 	@Override
-	public List<PhotographerDevice> sortByWeight(List<PhotographerDevice> device, boolean reverse) {
-		Comparator<PhotographerDevice> comparator = 
-				((PhotographerDevice d1, PhotographerDevice d2) -> d1.getWeight() - d2.getWeight());
-		        device.sort(comparator);
-		        if(reverse) {
-		        	Collections.reverse(device);
-		        }
-		return device;
-		  
+	public void sortByWeight(List<PhotographerDevice> device, boolean reverse) {
+		if (reverse) {
+			Collections.sort(device, Comparator.comparing(PhotographerDevice::getWeight).reversed());
+		} else {
+			Collections.sort(device, Comparator.comparing(PhotographerDevice::getWeight));
+		}
 	}
 
 }
