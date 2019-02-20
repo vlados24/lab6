@@ -31,8 +31,10 @@ public class Main {
 		listDevice.add(studioStand);
 		listDevice.add(quadcopter);
 		
-		System.out.print(manager.sortBySize(listDevice, true));
-		System.out.println(manager.sortByWeight(listDevice, true));
+		manager.sortBySize(listDevice, true);
+		System.out.print(listDevice);
+		manager.sortByWeight(listDevice, true);
+		System.out.print(listDevice);
 	}
 
 }
