@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+work,main.java.ua.lviv.iot.photographerDevice.model,Target,0,34,0,0,0,2,0,1,0,1
+work,main.java.ua.lviv.iot.photographerDevice.model,StudioStand,34,15,0,0,12,5,8,1,8,1
+work,main.java.ua.lviv.iot.photographerDevice.model,PhotographerDevice,26,18,0,0,10,7,6,3,6,3
+work,main.java.ua.lviv.iot.photographerDevice.model,Camera,43,18,0,0,15,6,10,1,10,1
+work,main.java.ua.lviv.iot.photographerDevice.model,Lantern,25,12,0,0,9,4,6,1,6,1
+work,main.java.ua.lviv.iot.photographerDevice.model,Quadcopter,34,15,0,0,12,5,8,1,8,1
+work,main.java.ua.lviv.iot.photographerDevice.manager,PhotographerDeviceManager,43,21,4,2,13,8,8,3,5,3
+work,main.java.ua.lviv.iot.photographerDevice,Main,82,0,0,0,16,0,2,0,2,0

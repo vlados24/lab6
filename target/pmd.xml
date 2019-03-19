@@ -2,7 +2,7 @@
 <pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
-    version="6.8.0" timestamp="2019-03-18T21:10:36.787">
+    version="6.8.0" timestamp="2019-03-19T11:57:01.271">
 <file name="C:\Users\klient\eclipse-workspace\Winter-School-Lab-3-PhotographerDevic-\src\main\java\ua\lviv\iot\photographerDevice\manager\PhotographerDeviceManager.java">
 <violation beginline="10" endline="10" begincolumn="8" endcolumn="72" rule="DuplicateImports" ruleset="Code Style" package="main.java.ua.lviv.iot.photographerDevice.manager" class="PhotographerDeviceManager" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#duplicateimports" priority="4">
 Avoid duplicate imports such as 'main.java.ua.lviv.iot.photographerDevice.model.PhotographerDevice'
