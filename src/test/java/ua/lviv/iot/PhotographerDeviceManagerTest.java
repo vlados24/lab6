@@ -1,7 +1,5 @@
 package test.java.ua.lviv.iot;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -53,11 +51,11 @@ class PhotographerDeviceManagerTest {
 		Assertions.assertEquals(5, testDevice.get(3).getWeight());
 
 	}
-	
-	 @Test
-	    void findEssentialDevicesForNatureByTarget() {
-	        List<PhotographerDevice> result = testManager.findEssentialDevicesForNatureByTarget(Target.SPORT_EVENT);
-	        Assertions.assertEquals(Target.SPORT_EVENT, testDevice.get(3).getTarget());
-	      
-	 }
+
+	@Test
+	void findEssentialDevicesForNatureByTarget() {
+		testManager.findEssentialDevicesForNatureByTarget(testDevice, Target.SPORT_EVENT);
+		Assertions.assertEquals(Target.SPORT_EVENT, testDevice.get(3).getTarget());
+
+	}
 }

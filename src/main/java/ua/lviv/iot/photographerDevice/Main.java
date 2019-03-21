@@ -27,10 +27,14 @@ public class Main {
 		listDevice.add(studioStand);
 		listDevice.add(quadcopter);
 		
-		manager.sortBySize(listDevice, true);
-		System.out.print(listDevice);
-		manager.sortByWeight(listDevice, true);
-		System.out.print(listDevice);
+//		manager.sortBySize(listDevice, true);
+//		System.out.print(listDevice);
+//		manager.sortByWeight(listDevice, true);
+//		System.out.print(listDevice);
+		
+		List<PhotographerDevice> result = manager.findEssentialDevicesForNatureByTarget(listDevice, Target.SPORT_EVENT);
+
+		System.out.println(result.get(0).getTarget());
 	}
 
 }

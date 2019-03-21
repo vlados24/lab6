@@ -49,7 +49,8 @@ public PhotographerDeviceManager() {
 			Collections.sort(device, Comparator.comparing(PhotographerDevice::getWeight));
 		}
 	}
-
+/**
+	
 	public List<PhotographerDevice> findEssentialDevicesForNatureByTarget(Target target) { 
 		 
 		  List<PhotographerDevice> devicesList = devices; 
@@ -63,5 +64,17 @@ public PhotographerDeviceManager() {
 		  return findPhotographerDeviceList; 
 		 
 		 }
-
+**/
+	
+	
+	public List<PhotographerDevice> findEssentialDevicesForNatureByTarget(List<PhotographerDevice> device,Target target) {
+		List<PhotographerDevice> deviceList = devices;
+		List<PhotographerDevice> findForNature = deviceList.stream()
+				.filter(devices -> devices.getTarget() == Target.SPORT_EVENT).collect(Collectors.toList());
+		return findForNature;
+	}
+	
+	
+	
+	
 }
