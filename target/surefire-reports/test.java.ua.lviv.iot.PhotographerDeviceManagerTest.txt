@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: test.java.ua.lviv.iot.PhotographerDeviceManagerTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.179 s <<< FAILURE! - in test.java.ua.lviv.iot.PhotographerDeviceManagerTest
-findEssentialDevicesForNatureByTarget  Time elapsed: 0.039 s  <<< ERROR!
-java.lang.NullPointerException
-	at test.java.ua.lviv.iot.PhotographerDeviceManagerTest.findEssentialDevicesForNatureByTarget(PhotographerDeviceManagerTest.java:57)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 s - in test.java.ua.lviv.iot.PhotographerDeviceManagerTest

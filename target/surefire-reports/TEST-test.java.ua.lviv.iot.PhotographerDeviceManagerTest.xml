@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.java.ua.lviv.iot.PhotographerDeviceManagerTest" time="0.179" tests="3" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.java.ua.lviv.iot.PhotographerDeviceManagerTest" time="0.111" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="UA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\klient\AppData\Local\Temp\surefire14752021338859335562\surefirebooter15789204897888282998.jar C:\Users\klient\AppData\Local\Temp\surefire14752021338859335562 2019-03-21T11-07-31_358-jvmRun1 surefire9155344243077906468tmp surefire_05359758812438901653tmp"/>
+    <property name="sun.java.command" value="C:\Users\klient\AppData\Local\Temp\surefire5410333458758247958\surefirebooter14955421570802149502.jar C:\Users\klient\AppData\Local\Temp\surefire5410333458758247958 2019-03-25T09-08-47_210-jvmRun1 surefire1369116394657218609tmp surefire_04059611260179985814tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\klient\eclipse-workspace\Winter-School-Lab-3-PhotographerDevic-\target\test-classes;C:\Users\klient\eclipse-workspace\Winter-School-Lab-3-PhotographerDevic-\target\classes;C:\Users\klient\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\klient\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\klient\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\klient\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\klient\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.0\junit-jupiter-params-5.4.0.jar;C:\Users\klient\.m2\repository\com\openpojo\openpojo\0.8.10\openpojo-0.8.10.jar;C:\Users\klient\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\klient\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\klient\AppData\Local\Temp\surefire14752021338859335562\surefirebooter15789204897888282998.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\klient\AppData\Local\Temp\surefire5410333458758247958\surefirebooter14955421570802149502.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.2+9-LTS"/>
@@ -60,11 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testSortBySize" classname="test.java.ua.lviv.iot.PhotographerDeviceManagerTest" time="0.073"/>
-  <testcase name="testSortByWeight" classname="test.java.ua.lviv.iot.PhotographerDeviceManagerTest" time="0.005"/>
-  <testcase name="findEssentialDevicesForNatureByTarget" classname="test.java.ua.lviv.iot.PhotographerDeviceManagerTest" time="0.039">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test.java.ua.lviv.iot.PhotographerDeviceManagerTest.findEssentialDevicesForNatureByTarget(PhotographerDeviceManagerTest.java:57)
-</error>
-  </testcase>
+  <testcase name="testSortBySize" classname="test.java.ua.lviv.iot.PhotographerDeviceManagerTest" time="0.042"/>
+  <testcase name="testSortByWeight" classname="test.java.ua.lviv.iot.PhotographerDeviceManagerTest" time="0.006"/>
+  <testcase name="findEssentialDevicesForNatureByTarget" classname="test.java.ua.lviv.iot.PhotographerDeviceManagerTest" time="0.01"/>
 </testsuite>

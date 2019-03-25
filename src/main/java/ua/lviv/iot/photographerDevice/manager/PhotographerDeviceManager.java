@@ -30,7 +30,7 @@ public class PhotographerDeviceManager implements lPhotographerDeviceManager {
 	@Override
 	public List<PhotographerDevice> findEssentialDevicesForNatureByTarget(List<PhotographerDevice> device,
 	        Target target) {
-		 List<PhotographerDevice> devicesList = devices;
+		 List<PhotographerDevice> devicesList = device;
 		 List<PhotographerDevice> findEssentialDevices = devicesList.stream()
 				 .filter(devices -> devices.getTarget() == Target.SPORT_EVENT).collect(Collectors.toList());
 		return findEssentialDevices;
