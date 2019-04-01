@@ -23,6 +23,13 @@ public class StudioStand extends PhotographerDevice {
 				" minimumShootingHeight " + minimumShootingHeight;
 	
 	}
+	public String getHeaders() {
+		return null;
+	}
+	
+	public String toCSV() {
+		return null;
+	}
 	public String getLightSynchronizer() {
 		return lightSynchronizer;
 	}

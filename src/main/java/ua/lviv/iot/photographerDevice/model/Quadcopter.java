@@ -1,13 +1,13 @@
 package main.java.ua.lviv.iot.photographerDevice.model;
 
 public class Quadcopter extends PhotographerDevice {
-	
+
 	private int maxHeight;
 	private int power;
 	private int batteryCapacity;
 
 	public Quadcopter() {
-		
+
 	}
 
 	public Quadcopter(int weight, int size, Target target, int maxHeight, int power, int batteryCapacity) {
@@ -16,12 +16,17 @@ public class Quadcopter extends PhotographerDevice {
 		this.power = power;
 		this.batteryCapacity = batteryCapacity;
 	}
-	
+
 	public String toString() {
-		return super.toString() +
-				" maxHeight " + maxHeight +
-				" power " + power +
-				" batteryCapacity " + batteryCapacity;
+		return super.toString() + " maxHeight " + maxHeight + " power " + power + " batteryCapacity " + batteryCapacity;
+	}
+
+	public String getHeaders() {
+		return null;
+	}
+
+	public String toCSV() {
+		return null;
 	}
 
 	public int getMaxHeight() {
@@ -48,5 +53,4 @@ public class Quadcopter extends PhotographerDevice {
 		this.batteryCapacity = batteryCapacity;
 	}
 
-	
 }
